@@ -56,7 +56,7 @@
 //  console.log(Object.entries(objeto))
 //  console.log(Object.entries(objeto)[0][1])
 
- const array2 = [
+const array2 = [
     { nombre : "jose", edad : 22 },//0
     { nombre : "juan", edad : 23 }//1
  ]
@@ -64,5 +64,3 @@
  console.log(array2.push)
 
  const VARIABLE = 3.14
-
-
