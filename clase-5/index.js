@@ -1,5 +1,6 @@
 //for clasico
 const numeros = [25, 5, 10, 2, 8]
+const palabras = [ "hola", "chau"]
 
 // for(let i = 0; i < arrayNumeros.length; i++){
 
@@ -17,7 +18,9 @@ const numeros = [25, 5, 10, 2, 8]
 // }
 
 for(let numero in numeros){
-    console.log(numeros[numero])
+
+    console.log("in", numeros[numero])
+
 }
 
 
@@ -25,9 +28,18 @@ for(let numero in numeros){
 
 //sintaxis
 // for(let variable of array){
+
 //     console.log(variable)
 // }
+// for(let numero of numeros){
 
+//      console.log("Of",numero)
+
+// }
+
+for(let[i, numero] of numeros.entries()){
+    console.log(`i: ${i}, valor: ${numero}`)
+}
 
 // for(let numero of arrayNumeros){
 
